@@ -32,8 +32,9 @@ A timer is implemented for each question, and the total time taken to complete t
 A progress bar indicates how many questions have been answered.
 
 
-##Live Demo
-You can view a live demo of the application on Vercel: https://quiz-application-omega.vercel.app
+## Live Demo
+You can view a live demo of the application on Vercel: [Quiz App Demo](https://quiz-application-omega.vercel.app)
+
 
 Contributing
 If you'd like to contribute to this project or suggest improvements, please feel free to open an issue or create a pull request.
