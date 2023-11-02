@@ -18,7 +18,7 @@ To run the quiz application, follow these steps:
 
 The quiz questions are stored in a JavaScript array (`quizData`) in the `main.js` file. You can add, modify, or remove questions as needed. Each question has the following format:
 
-```javascript
+
 {
   question: "What is the capital of France?",
   options: ["New York", "London", "Paris", "Dublin"],
