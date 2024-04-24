@@ -21,3 +21,6 @@ jobs:
       
     - name: Run Docker container
       run: docker run -d -p 8080:8080 $DOCKER_USERNAME/quiz-app:latest
+
+    - name: Show running containers
+      run: docker ps
