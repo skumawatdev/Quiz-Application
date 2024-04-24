@@ -24,3 +24,15 @@ jobs:
 
     - name: Show running containers
       run: docker ps
+
+    - name: Connect to running containers
+      run: docker exec -it quiz-app /bin/sh
+
+    - name: Stop running containers
+      run: docker stop quiz-app
+
+    - name: Remove the stop container
+      run: docker rm $(docker ps -aq)
+
+    - name: Show running containers
+      run: docker ps
