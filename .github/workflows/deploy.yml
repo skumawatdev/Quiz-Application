@@ -17,7 +17,7 @@ jobs:
       run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
       
     - name: Pull Docker image
-      run: docker pull $DOCKER_USERNAME/quiz-app:latest
+      run: docker pull ${{ secrets.DOCKER_USERNAME }}/quiz-app:latest
       
     - name: Run Docker container
       run: docker run -d -p 8080:8080 $DOCKER_USERNAME/quiz-app:latest
