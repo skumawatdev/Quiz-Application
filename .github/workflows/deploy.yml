@@ -26,7 +26,7 @@ jobs:
       run: docker ps
 
     - name: Connect to running containers
-      run: docker exec -it quiz-app /bin/sh
+      run: docker exec -it quiz-app ls || true
 
     - name: Stop running containers
       run: docker stop quiz-app
